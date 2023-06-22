@@ -1,0 +1,18 @@
+.menuWrap {
+}
+
+.foodName {
+  color: black;
+  font-size: large;
+}
+
+.desc {
+  font-style: italic;
+}
+
+.price {
+  color: brown;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 10px;
+}

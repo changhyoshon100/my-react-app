@@ -1,0 +1,40 @@
+.announce {
+  height: 30vh;
+  margin: auto;
+  border-radius: 3rem;
+  background-color: gray;
+  z-index: 60;
+  margin-top: -6rem;
+  /* position: absolute; */
+  transform: translate(0%, -10%);
+  overflow: hidden;
+}
+.title,
+.phrase {
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  width: 80%;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.title {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+
+.phrase {
+  font-size: 1.1rem;
+}
+@media (max-width: 900px) {
+  .announce {
+    width: 90%;
+  }
+}
+
+@media (min-width: 901px) {
+  .announce {
+    width: 60%;
+  }
+}

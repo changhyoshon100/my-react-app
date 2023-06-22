@@ -1,0 +1,33 @@
+.menuList {
+  margin: auto;
+  background-color: aliceblue;
+  width: 86%;
+  border-radius: 0.7rem;
+  justify-content: space-between;
+  padding: 0 1rem;
+  overflow: scroll;
+}
+
+.menuDisplay {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_div button {
+  color: white;
+  margin-top: 1rem;
+  font-weight: bold;
+  justify-content: right;
+  background-color: brown;
+  margin-left: calc(100% - var(--button-width));
+}
+
+:root {
+  --button-width: 100px;
+  --button-height: 40px;
+}
+
+.custom_btn {
+  width: var(--button-width);
+  height: var(--button-height);
+}

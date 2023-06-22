@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.backdrop {
+  background-color: #000000;
+  opacity: 0.7;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+}
+/* 
+.backdrop::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FPortrait-Photography-Backdrops-Gradient-Backgrounds%2Fdp%2FB0BF9GQ6YP&psig=AOvVaw04McgxkWH30x-CxYIklZAh&ust=1687374422221000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCIiFrNzF0v8CFQAAAAAdAAAAABAV");
+  opacity: 0.2;
+}
+
+.backdrop::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background-color: #ffffff;
+
+} 
+*/

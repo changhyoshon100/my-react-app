@@ -1,0 +1,13 @@
+.actions {
+  padding: 1rem 2rem;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 3rem;
+  background-color: bisque;
+}
+.actions:hover {
+  cursor: pointer;
+  background-color: burlywood;
+}
